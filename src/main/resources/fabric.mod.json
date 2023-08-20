@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "barriers-dont-block-rain",
+	"version": "${version}",
+	"name": "Barriers Don't Block Rain",
+	"description": "Barriers Don't Block Rain",
+	"authors": [
+		"Commander07"
+	],
+	"contact": {
+		"sources": "https://github.com/Commander07/barriers-dont-block-rain"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/barriers-dont-block-rain/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"io.github.commander07.bdbr.BDBR"
+		]
+	},
+	"mixins": [
+		"barriers-dont-block-rain.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+	}
+}
