@@ -3,7 +3,7 @@
 	"package": "io.github.commander07.bdbr.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-      "HeightmapMixin"
+		"WorldRendererMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
