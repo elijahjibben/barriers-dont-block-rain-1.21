@@ -1,11 +1,12 @@
 {
-	"required": true,
-	"package": "io.github.commander07.bdbr.mixin",
-	"compatibilityLevel": "JAVA_17",
-	"mixins": [
-		"WorldMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	}
+  "required": true,
+  "package": "io.github.commander07.bdbr.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "WorldMixin"
+  ]
 }
