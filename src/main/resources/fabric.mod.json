@@ -8,7 +8,8 @@
 		"Commander07"
 	],
 	"contact": {
-		"sources": "https://github.com/Commander07/barriers-dont-block-rain"
+		"sources": "https://github.com/Commander07/barriers-dont-block-rain",
+		"homepage": "https://modrinth.com/mod/barriers-dont-block-rain"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/barriers-dont-block-rain/icon.png",

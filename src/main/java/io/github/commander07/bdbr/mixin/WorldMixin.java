@@ -16,7 +16,7 @@ public abstract class WorldMixin {
     @Inject(at = @At("HEAD"), method = "getTopY", cancellable = true)
     public void getTopPosition(Heightmap.Type heightmap, int x, int z, CallbackInfoReturnable<Integer> cir) {
         if (heightmap == Heightmap.Type.MOTION_BLOCKING) {
-            int i = -1;
+            int i = -65;
             for (int y = 0; y!=255; y++) {
                 BlockState state = MinecraftClient.getInstance().world.getBlockState(new BlockPos(x, y, z));
                 if ((state.blocksMovement() || !state.getFluidState().isEmpty()) && !(state.getBlock() instanceof BarrierBlock)) {
