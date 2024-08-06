@@ -5,11 +5,12 @@
 	"name": "Barriers Don't Block Rain",
 	"description": "Barriers Don't Block Rain",
 	"authors": [
-		"Commander07"
+		"Commander07",
+		"Updated to 1.21 by quikjay"
 	],
 	"contact": {
-		"sources": "https://github.com/Commander07/barriers-dont-block-rain",
-		"homepage": "https://modrinth.com/mod/barriers-dont-block-rain"
+		"sources": "https://github.com/elijahjibben/barriers-dont-block-rain-1.21",
+		"homepage": "https://modrinth.com/mod/barriers-dont-block-rain-1.21"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/barriers-dont-block-rain/icon.png",
@@ -24,8 +25,8 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.14.22",
-		"minecraft": "~1.20",
-		"java": ">=17",
+		"minecraft": "~1.21",
+		"java": ">=21",
 		"fabric-api": "*"
 	},
 	"suggests": {
